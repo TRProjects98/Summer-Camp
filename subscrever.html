@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link href="Hover-master/css/hover-min.css" rel="stylesheet">
+
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Subscrever</title>
+</head>
+
+<body>
+
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-2 bg-custom-1">
+    <a class="navbar-brand" href="#"><img src="imgs/logo.png" width="130px" height="130px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+            aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+        <ul class="navbar-nav snip1189">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Página Inicial</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false" href="quemsomos.html">Quem Somos</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="monitores.html">Monitores</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false" href="multimedia.html">Multimédia</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="galeria.html">Galeria</a>
+                    <a class="dropdown-item" href="multimedia.html">Arte</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false" href="atividades.html">Atividades</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="programacao.html">Programação</a>
+                    <a class="dropdown-item" href="Inscricoes.html">Inscrições</a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="artigos.html">Artigos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+            </li>
+
+        </ul>
+        <div class="navbar-nav ml-auto nav-flex-icons">
+            <a href="subscrever.html">
+                <button type="button" class="btn btn-outline-default waves-effect mr-sm-2 snip1189 hvr-round-corners">SUBSCREVER</button>
+            </a>
+        </div>
+
+    </div>
+</nav>
+<!--/.Navbar-->
+
+
+<main class="container-fluid">
+
+    <section class="header-side no-gutters">
+            <div class="row no-gutters">
+                <div class="col-xs-12">
+                    <h1 class="text-center titulo-maior">Newsletter</h1>
+                </div>
+            </div>
+    </section>
+
+    <form class="row justify-content-center" id="formulario" method="post" action="http://blogs.ua.pt/heldercaixinha/form_result.php"
+          autocomplete="on">
+
+
+        <div class="col-md-3 col-sm-12 mt-5">
+            <h1>Newsletter</h1>
+            <p>Email</p>
+            <p> <input type="text" name="campo" form="formulario"></p>
+        </div>
+
+        <section class="col-md-3 col-sm-12 padt mt-4">
+        <div class="wrap mt-3 mb-3">
+            <button type="button" class="btn btn-primary btn-dark hvr-bounce-in" data-toggle="modal" data-target=".bs-example-modal-lg">
+                Subscrever
+            </button>
+        </div>
+
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+             aria-hidden="true">
+
+            <div class="modal-dialog modal-lg">
+
+
+                <div class="modal-content">
+
+
+                    <div class="modal-header no-borders">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="gridSystemModalLabel"></h4>
+                    </div>
+
+
+                    <div class="modal-body">
+                        <p class="body-message centered"><strong>Obrigado por subscrever a nossa newsletter</strong>
+                        </p>
+                    </div>
+
+
+                    <div class="modal-footer no-borders">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </section>
+    </form>
+
+</main>
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-custom-1 mt-5 pt-2">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <img src="imgs/logo.png" width="130px" height="130px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid
+                    consectetur
+                    adipisicing elit.</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Navegação</h6>
+                <p>
+                    <a href="index.html">Página Inicial</a>
+                </p>
+                <p>
+                    <a href="quemsomos.html">Quem Somos</a>
+                </p>
+                <p>
+                    <a href="multimedia.html">Multimédia</a>
+                </p>
+                <p>
+                    <a href="atividades.html">Atividades</a>
+                </p>
+                <p>
+                    <a href="contactos.html">Contactos</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Mais Informações</h6>
+                <p>
+                    <a href="#">Política de Privacidade</a>
+                </p>
+                <p>
+                    <a href="#">Termos e Condições</a>
+                </p>
+                <p>
+                    <a href="#">Livro de Reclamações</a>
+                </p>
+                <p>
+                    <a href="#">FAQ</a>
+                </p>
+            </div>
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contactos</h6>
+                <p>
+                    <i class="fas fa-home mr-3"></i> Gerês, 4845-063</p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i> + 351 999 999 999</p>
+                <p>
+                    <i class="fas fa-print mr-3"></i> + 351 999 999 999</p>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Footer links -->
+
+        <hr>
+
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8">
+
+                <!--Copyright-->
+                <p class="text-center text-md-left">© 2019 Copyright:
+                <p>
+                    <strong> Gerês Summer Camp</strong>
+                </p>
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                <!-- Social buttons -->
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+</footer>
+<!--/.Footer -->
+
+<!--hover -->
+<script>
+    $(".nav-link.dropdown-toggle").hover( function () {
+        // Open up the dropdown
+        $(this).removeAttr('data-toggle'); // remove the data-toggle attribute so we can click and follow link
+        $(this).parent().addClass('show'); // add the class show to the li parent
+        $(this).next().addClass('show'); // add the class show to the dropdown div sibling
+    }, function () {
+        // on mouseout check to see if hovering over the dropdown or the link still
+        var isDropdownHovered = $(this).next().filter(":hover").length; // check the dropdown for hover - returns true of false
+        var isThisHovered = $(this).filter(":hover").length;  // check the top level item for hover
+        if(isDropdownHovered || isThisHovered) {
+            // still hovering over the link or the dropdown
+        } else {
+            // no longer hovering over either - lets remove the 'show' classes
+            $(this).attr('data-toggle', 'dropdown'); // put back the data-toggle attr
+            $(this).parent().removeClass('show');
+            $(this).next().removeClass('show');
+        }
+    });
+    // Check the dropdown on hover
+    $(".dropdown-menu").hover( function () {
+    }, function() {
+        var isDropdownHovered = $(this).prev().filter(":hover").length; // check the dropdown for hover - returns true of false
+        var isThisHovered= $(this).filter(":hover").length;  // check the top level item for hover
+        if(isDropdownHovered || isThisHovered) {
+            // do nothing - hovering over the dropdown of the top level link
+        } else {
+            // get rid of the classes showing it
+            $(this).parent().removeClass('show');
+            $(this).removeClass('show');
+        }
+    });
+</script>
+</body>
+</html>
